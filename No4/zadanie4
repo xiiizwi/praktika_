@@ -1,1 +1,33 @@
-
+<html>
+    <h1>Турнир по киберспорту</h1>
+<table style="background-color: burlywood; border-collapse: collapse; border: 1px solid gainsboro;">
+    <tr style="background-color: olive; color: white; border: 1px solid whitesmoke;">
+        <td> Игра</td>
+        <td>Команда 1</td>
+        <td>Команда 2</td>
+        <td>Дата</td>
+        <td>Счёт</td>
+    </tr>
+    <tr style="border: 1px solid gainsboro;">
+        <td style="background-color: olive; color: white;"> Warface</td>
+        <td><img src="https://i.pinimg.com/550x/f4/bf/95/f4bf952f5baa08a53e9012b28c0fd233.jpg" width="20px" height="12px">Legion</td>
+        <td style=" background-color: white"><img src="https://i.pinimg.com/736x/ad/30/7f/ad307f7ef0f21331d825803094ecbbcf.jpg" width="20px" height="12px">Fire Master</td>
+        <td>11.11.2020</td>
+        <td style=" background-color: white"><img src="https://www.svgrepo.com/show/321230/pointy-sword.svg" width="20px" height="12px">2 : 0</td>
+    </tr>
+    <tr style="border: 1px solid gainsboro;">
+        <td style=" background-color: olive; color: white;"> CrossFire</td>
+        <td><img src="https://otvet.imgsmail.ru/download/310264891_068fe58ca4c45f4e52d6a3b62dd109f9_800.jpg" width="20px" height="12px">Wind of War</td>
+        <td style=" background-color: white"><img src="https://i.pinimg.com/550x/f4/bf/95/f4bf952f5baa08a53e9012b28c0fd233.jpg" width="20px" height="12px">Legion</td>
+        <td>22.11.2020</td>
+        <td style=" background-color: white"><img src="https://www.svgrepo.com/show/321230/pointy-sword.svg" width="20px" height="12px">2 : 1</td>
+    </tr>
+    <tr style="border: 1px solid gainsboro;">
+        <td style=" background-color: olive; color: white;"> CS GO</td>
+        <td><img src="https://play-lh.googleusercontent.com/Km7TJkf4Pe0jQm4x-hCSflwnpyOngNKWYI-0UdCWb_MTaA56JM0DvWHzlOHlzU2Hq3o=w600-h300-pc0xffffff-pd" width="30px" height="20px">Demon Strike</td>
+        <td style=" background-color: white"><img src="https://otvet.imgsmail.ru/download/310264891_068fe58ca4c45f4e52d6a3b62dd109f9_800.jpg" width="20px" height="12px">Wind of War</td>
+        <td>03.12.2020</td>
+        <td style=" background-color: white"><img src="https://www.svgrepo.com/show/321230/pointy-sword.svg" width="20px" height="12px">1 : 0</td>
+    </tr>
+</table>
+</html>
