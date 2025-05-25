@@ -1,1 +1,148 @@
+ <html>
+    <head>
+        <title>ыыыыыыыыыыыы антэмагэ</title>
+            <style>
+        body { 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: darkorchid;
+        }
+        
+        h2 {
+            font-size: 40px;
+            color: purple;
+        }
+        
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        
+        header, footer {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            font-size: 18px;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        img {
+            border-radius: 10px;
+            margin: 10px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 20px;
+            background-color: white;
+        }
 
+        th, td {
+            border: 2px solid purple;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: purple;
+            color: white;
+        }
+    </style>
+    
+    </head>
+    <body>
+        <header> <!---Шапка--->
+            <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png" alt="Логотип" width="100">
+            <nav>
+                <a href="#about">О герое</a>
+                <a href="#chacters">описание способностей</a>
+            </nav>
+        </header>
+        <main> <!---Основная часть--->
+            <h1>Anti-mage — one of the bests cerry </h1>
+            <h2 id="about"></h2>
+            <p>Монахи Турстаркури наблюдали за неровными долинами, раскинувшимися под их горным монастырем, в то время, как вторженцы, 
+                волна за волной, набегали на стоявшие у подножья королевства. Аскетичные, прагматичные, 
+                они пребывали в медитации, не знавшей никаких богов, засев в своем отрешенном от суетного мира высокогорном гнезде. 
+                Потом грянул легион Мертвого бога — крестоносцы, уничтожающие все местные культы и заменяющие их своей верой, 
+                родом из земель, известных лишь безжалостностью и тысячелетними войнами. 
+                Легионы мертвецов осадили Турстаркури. Две недели монастырь едва сдерживал натиск врагов, 
+                а те немногие монахи, что решили разузнать, в чем дело, восприняли нападение как попытку бесовских иллюзий отвлечь их от медитации. 
+                Они были убиты прямо на своих шелковых подстилках. 
+                Выжил лишь один молодой послушник — пилигрим, пришедший в поисках мудрости, но еще не принятый в монастырь. 
+                С ужасом он смотрел за тем, как монахи, которым он еще недавно подавал чаи и травы, гибли на своих местах, 
+                а потом присоединялись к рядам служителей Мертвого бога. Схватив охапку ценнейших священных писаний, он бежал в более безопасное место, 
+                поклявшись не только искоренить армию колдунов Мертвого бога, но и положить конец любой, какой бы то ни было, магии.</p>
+
+            <h2 id="chacters">способности героя</h2>
+            <p><strong>Mana Break <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_break.png" width="50" height="50"> </strong>— Каждая атака сжигает ману цели и наносит ей урон, равный доле от сожжённой маны. </p>
+            <p><strong>Blink <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_blink.png" width="50" height="50"> </strong>— Перемещение на короткую дистанцию, позволяющее ворваться в схватку или быстро из неё сбежать.</p>
+            <p><strong>Counterspell <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_counterspell.png" width="50" height="50"></strong> — ассивно увеличивает сопротивление магическому урону. Можно применить, чтобы создать вокруг себя противомагический щит, который блокирует и отражает все направленные заклинания.</p>
+            <p><strong>Mana Void <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_void.png" width="50" height="50"></strong> — Кратковременно оглушает вражескую цель, а затем наносит ей и всем окружающим её противникам урон, пропорциональный числу отсутствующей у неё маны.</p>
+            <img src="https://dota2.su/media/photos/video/antimage.png" alt="Обложка Берсерка" width="500">
+            <img src="https://myesportsglobe.com/wp-content/uploads/2020/07/image.png" alt="Гатс" width="300">
+            <h2>Аспекты</h2>
+            <table>
+                <tr>
+                    <th>Название Аспекта</th>
+                    <th>Способность с которой прокачивается аспект</th>
+                    <th>Описание аспекта</th>
+                </tr>
+                <tr>
+                    <td> Magebane's Mirror</td>
+                    <td>Counterspell</td>
+                    <td>Если отразить заклинание с помощью Counterspell, оно немедленно сожжёт обидчику ману пропорционально затраченной и нанесёт ему урон в размере доли от сожжённой маны.
+                        Отразив заклинание, эта способность сожжёт обидчику ману пропорционально затраченной и нанесёт ему урон в размере 100% от сожжённой маны (но не больше 400 за заклинание).
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mana Thirst</td>
+                    <td>Mana Void</td>
+                    <td>Урон героя увеличивается, когда у врагов вокруг мало маны.
+                        Пассивно увеличивает урон от атак, когда вражеский герой в радиусе 2500 имеет меньше 60% маны. Чем ниже уровень маны, тем сильнее эффект.
+                        Если мана вражеского героя упадёт ниже 15%, бонус к атаке станет максимальным, а самого героя станет видно, даже если он невидим. Бонусы от разных героев складываются.
+                    </td>
+                </tr>
+
+            </table>
+            <h2>Оставить отзыв</h2>
+            <form>
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="review">Ваш отзыв:</label><br>
+                <textarea id="review" name="review" rows="5" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Отправить">
+            </form>
+        </main>
+        <footer> <!---Подвал--->
+                <p>© Anti-mage — one of the bests cerry</p>
+                <p>Адрес: г. Мидлайн, ул. Фидово, 322</p>
+                <p>Телефон: +0 (555) 111-66-99</p>
+                <a href="https://www.aviasales.ru/" target="_blank">
+                <img src="https://i.pinimg.com/736x/48/a3/d9/48a3d927eb1918fb13f96e4bf1f56767.jpg" alt="Логотип" width="100">
+        </footer>
+    </body>
+</html>
