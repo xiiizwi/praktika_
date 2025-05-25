@@ -1,1 +1,9 @@
-
+<html>
+    <h1>Космический фотобанк</h1>
+    <p>Я сюда буду выкладывать красивые фотографии</p>
+    <p>
+        <img src="https://avatars.yandex.net/get-music-content/13663712/fc82838e.a.33796743-1/m1000x1000?webp=false" width="200" height="200">
+        <img src="https://avatars.mds.yandex.net/i?id=d159e83bcc0bb29b22244447702c48bf_l-5655440-images-thumbs&n=13" width="200" height="200"> 
+        <img src="https://avatars.yandex.net/get-music-content/5282321/bd954617.a.16889966-1/m1000x1000?webp=false" width="200" height="200">
+    </p>
+</html>
