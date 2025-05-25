@@ -1,1 +1,30 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                color: blue;
+                font-size: 50px;
+                margin: 20px;
+                text-align: center;
+                font-family: "Arial";
+            }
 
+            img {
+                height: 200px;
+            }
+
+            .special_img {
+                height: 200px;
+                border: 10px solid blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Дельфинарий приглашает</h1>
+        <div>
+            <img style="margin-right: 15px;" src="https://avatars.mds.yandex.net/i?id=171b6c379f6404724873f173123d4b5c_l-9097650-images-thumbs&n=13"> 
+            <img class="special_img" src="https://www.fiesta.ru/uploads/slider_image/image/178449/v880_v880_2.jpg"> 
+            <img style="margin-left: 15px;" src="https://avatars.mds.yandex.net/i?id=d416e620a391c30a7c9a07bcff31810f_l-4409557-images-thumbs&n=13">
+        </div>
+    </body>
+</html>
