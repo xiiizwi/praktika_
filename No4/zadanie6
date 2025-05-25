@@ -1,1 +1,69 @@
-
+<html>
+    <h1>Шаурма</h1>
+<table style="background-color: gold; border-collapse: collapse">
+    <tr style="border: 1px solid black;">
+        <td><img src="https://i.pinimg.com/originals/21/94/79/219479f896dc8795886efc9b35bc5ab0.png" width="15" height="15">Классическая</td>
+        <td style=>1</td>
+        <td style=>2</td>
+        <td style=>3</td>
+        <td style=>4</td>
+        <td style=>5</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td><img src="https://banner2.cleanpng.com/20180615/fzc/aa7ycyej6.webp" width="15" height="15">Куриное филе</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td><img src="https://banner2.cleanpng.com/20180323/apw/kisspng-vegetarian-cuisine-pickled-cucumber-computer-icons-cucumber-5ab505294bcad6.8599914415218127773105.jpg " width="15" height="15">огурец</td> 
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td><img src="https://avatars.mds.yandex.net/i?id=9211b4c76415839b675d45c817a53d582a1a881e-10652863-images-thumbs&n=13" width="15" height="15">помидор</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td><img src="https://avatars.mds.yandex.net/i?id=9e4692fdb3159119478a4d7b484d4822_l-4276558-images-thumbs&n=13" width="15" height="15">капуста</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td><img src="https://thumbs.dreamstime.com/b/корейская-морковь-29377059.jpg" width="15" height="15">морковь по-корей</td>
+        <td></td>
+        <td></td>
+        <td>+</td>
+        <td>+</td>
+        <td></td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td><img src="https://media.baamboozle.com/uploads/images/20159/1616171330_30610.png" width="15" height="15">картофель фри</td>
+        <td></td>
+        <td>+</td>
+        <td></td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td><img src="https://main-cdn.sbermegamarket.ru/big1/hlr-system/-98/756/014/411/516/1/100073746907b0.jpg" width="15" height="15">сыр копченый</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>+</td>
+    </tr>
+</table>
+</html>
