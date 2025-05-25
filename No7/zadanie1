@@ -1,1 +1,53 @@
+<html>
+    <head>
+        <style>
+            header img {
+                width: 70px;
+                height: 70px;
+            }
+            header {
+                background-color: burlywood;
+            }
 
+            h1 img {
+                width: 150px;
+                height: 150px;
+            }
+
+            p img {
+                width: 100px;
+                height: 100px;
+            }
+            
+            footer {
+                background-color: sandybrown;
+                color:white
+            }
+
+            body, main, footer {font-family: 'Arial'}
+        </style>
+    </head>
+    <body>
+        <header> <!---Шапка--->
+            <img src="https://obr-ku.ru/images/Knopki_na_glavnoy/262-2625586_computer-clipart-project-portrait-of-a-man.png" alt="Логотип Computer Market">
+            <p>Сделай покупку до нового года, получи подарок!</p>
+        </header>
+
+        <main> <!---Главное--->
+            <h1 style="text-align: center;">Computer Market <img src="https://avatars.mds.yandex.net/i?id=d7132f6fb0d720fb8f1ac35da97ed19ad813bc35-10638736-images-thumbs&n=13" width="250"></h2>
+            <p>Решили приобрести компьютер или планшет? Торопитесь, в декабре у нас скидки!</p>
+            <img src="https://avatars.mds.yandex.net/get-mpic/12387925/2a00000193c0ae2fdb2b9cfe54f8583e8929/orig" width="70">
+            <img src="https://e7.pngegg.com/pngimages/42/559/png-clipart-laptop-dell-computer-icons-cartoon-computer-electronics-netbook.png" width="80">
+            <img src="https://avatars.mds.yandex.net/i?id=351642c9e282f50079742c99615919f7051cd58b-5263755-images-thumbs&n=13" width="70">
+            <img src="https://e7.pngegg.com/pngimages/975/982/png-clipart-intel-gaming-computer-desktop-computers-personal-computer-intel-game-computer-network.png" width="70">
+            <img src="https://avatars.mds.yandex.net/i?id=b88b7af3e0286a4b38459d403a9e8492c628c50f-5079356-images-thumbs&n=13" width="70">
+            <img src="https://img2.pngindir.com/20180621/thv/kisspng-computer-mouse-input-devices-5b2c285336ee07.023865391529620563225.jpg" width="120">
+
+        </main>
+        <footer> <!---Подвал--->
+            <p>Контакты</p>
+            <p>Адрес: г. Чинилычево, ул. Тосторово, 13</p>
+            <p>Тел.: 1234-7654</p>
+        </footer>
+    </body>
+</html>
