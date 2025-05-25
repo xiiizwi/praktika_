@@ -1,1 +1,28 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-size: 20px;
+            }
+            
+            h1 {
+                color: #800080;
+                text-align: center;
+            }
 
+            p {
+                border: 2px solid purple;
+            }
+
+            img {
+                display: flex;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Праздники народов мира</h1>
+        <p>Китайский праздник льда и снега отмечается ежегодно с пятого января по пятое февраля. Мастера со всего света съезжаются для участия в конкурсе по созданию холодных скульптур, которые украшают подсветкой.</p>
+        <img src="https://i.pinimg.com/originals/ca/f3/d1/caf3d1b751b8648cdfc3026dcbe738af.jpg" width="450">
+    </body>
+</html>
