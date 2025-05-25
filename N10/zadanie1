@@ -1,1 +1,200 @@
+<html>
+    <head>
+        <style>
+        header {
+            background: hotpink; 
+            display: flex;
+            align-items: flex-end;
+            padding: 10px 20px;
+            height: 80px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        header img {
+            height: 50px;
+            margin-right: 15px;
+            margin-bottom: 5px;
+        }
 
+        header p {
+            font-family: "Arial";
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        nav {
+            background: #f0f0f0;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+            border: 1px solid gray
+        }
+        
+        nav a {
+            font-family: "Arial";
+            font-size: 18px;
+            color: gray;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        
+        nav a:hover {
+            color: Purple;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        main h1 {
+            font-size: 40px;
+            font-weight: bold;
+            color: hotpink;
+            text-align: center;
+            font-family: "Arial";
+            font-style: italic;
+        }
+
+        footer {
+            background-color: hotpink;
+            padding: 10px;
+        }
+
+        footer p {
+            background-color: snow;
+            padding: 5px;
+            font-family: "Arial";
+            font-size: 20px;
+        }
+        form {
+            font-family: "Arial";
+        }
+
+        .rounded-box {
+            background-color: hotpink;
+            border-radius: 15px;
+            padding: 20px;
+            display: block;
+            width: calc(100% - 40px);
+            margin: 20px 0;
+            font-family: Arial;
+            font-size: 25px;
+            line-height: 1.5;
+            text-align: left;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .section h1 {
+            font-family: "Arial";
+            color: hotpink;
+        }
+        button {
+            font-family: "Arial";
+            border: 2px solid pink;
+            font-size: 15px;
+            color: hotpink;
+            width: 90px;
+            height: 40px;
+        }
+        .section p {
+            font-family: "Arial";
+        }
+        .section img {
+            border-radius: 15px; 
+            border: 1px solid blue;
+        }
+        .back-to-top {
+            margin-top: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="https://t4.ftcdn.net/jpg/05/36/46/59/360_F_536465997_A7Jug6J2CLDRVm9euPkqdiyXCHPWGRrw.jpg" alt="Логотип">
+            <p><b>Внимание! Сезонные скидки 40%</b> <button onclick="document.querySelector('footer').scrollIntoView({behavior: 'smooth'})">подробнее</button>
+        </header>
+        <nav>
+            <a href="#products">Продукция</a>
+            <a href="#how-to-buy">Как купить?</a>
+            <a href="#wholesale">Оптом</a>
+            <a href="#about">О компании</a>
+        </nav>
+        <main>
+            <h1>Fantastic Party</h1>
+
+            <div style="display: flex; flex-direction: column; align-items: center; font-family: Arial; font-size: 20px; margin: 20px auto; max-width: 800px;">
+                <form style="display: flex; align-items: center; gap: 10px;">
+                    <label for="city" style="margin: 30;">Выберите город для доставки: </label>
+                    <select id="city" name="city" style="padding: 5px; font-family: Arial; font-size: 16px;">
+                        <option value="Novosibirsk">Новосибирск</option>
+                        <option value="Barnaul">Барнаул</option>
+                        <option value="Biysk">Бийск</option>
+                        <option value="Nowoaltayisk"> Новоалтайск</option>
+                    </select>
+                </form>
+            </div>
+
+            <section id="products">
+                <div class="rounded-box">
+                    <img src="https://i.pinimg.com/736x/d3/c6/8a/d3c68aeb6f9ead3e57f80f12d12304b8.jpg" width="100">
+                    <p>Хлопушки</p>
+                </div>
+
+                <div class="rounded-box">
+                    <img src="https://avatars.mds.yandex.net/i?id=85a0d764c2c0df67cb63df8db590f9a3-4593353-images-thumbs&n=13" width="100">
+                    <p>Петарды</p>
+                </div>
+                
+                <div class="rounded-box">
+                    <img src="https://avatars.mds.yandex.net/i?id=4faa92e42bc5f22c0e994b8350704b1f_l-5268966-images-thumbs&n=13" width="100">
+                    <p>Фонтаны</p>
+                </div>
+
+                <div class="rounded-box">
+                    <img src="https://banner2.cleanpng.com/20180216/gsw/av15jrqva.webp" width="100">
+                    <p>Фестивальные шары</p>
+                </div>
+            </section>
+
+            <section id="season-offer" class="section">
+                <h1>Сезонное предложение</h1>
+                <p>С 5 декабря по 5 марта действует предложение: скидка на всю продукцию 40%.</p>
+                <p><b><i>Спешите купить праздник выгодно?</i></b></p>
+                <img src="https://i.pinimg.com/originals/e5/89/45/e58945eb827e8c4d5e01d3efd877e22d.jpg" width="500">
+            </section>
+
+            <section id="how-to-buy" class="section">
+                <h1>Как приобрести?</h1>
+                <button onclick="document.querySelector('footer').scrollIntoView({behavior: 'smooth'})">Контакты</button>
+                <p>Вы можете сделать заказ по телефону или приобрести товары в магазине.</p>
+                <p>В магазине вас ждёт подробный рассказ о нашей продукции.</p>
+                <p>При посещении магазина можно заказать доставку на дом/в офис.</p>
+                <p>Вы также можете по телефону сделать предзаказ для резервирования товаров в магазине.</p>
+            </section>
+
+            <section id="wholesale" class="section">
+                <h1>Оптом</h1>
+                <p>От 100 000₽ - скидка 25%</p>
+                <p>От 200 000₽ - скидка 40%</p>
+                <img src="https://litmarket.ru/storage/blogs/109247_1711703345_66068531a141e.jpg" width="150">
+            </section>
+
+            <section id="about" class="section">
+                <h1>О компании</h1>
+                <p>Наша история началась с магазина, открывшегося в 2005 году. Тогда мы предлагали только хлопушки.</p>
+                <p>В 2015 году у нас появился сайт, а ассортимент пополнился новыми видами товаров.</p>
+                <img src="https://avatars.mds.yandex.net/i?id=912744c8db8c5e02b6c32932dbb0e3852f134d4d-9264516-images-thumbs&n=13" width="150">
+                <p></p>
+                <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Наверх</button>
+            </section>
+        </main>
+
+        <footer>
+            <p><b>Контакты</b></p>
+            <p>Адрес: Г. Хлопушково, пр-кт, Бахово, 49</p>
+            <p>Тел.: 1337-7331</p>
+        </footer>
+    </body>
+</html>
