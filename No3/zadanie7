@@ -1,1 +1,69 @@
-
+<html>
+    <h1>Шаурма</h1>
+<table style="background-color: gold; border-collapse: collapse">
+    <tr style="border: 1px solid black;">
+        <td>Классическая</td>
+        <td style=>1</td>
+        <td style=>2</td>
+        <td style=>3</td>
+        <td style=>4</td>
+        <td style=>5</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td>Куриное филе</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td>огурец</td> 
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td>помидор</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td>капуста</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td>морковь по-корей</td>
+        <td></td>
+        <td></td>
+        <td>+</td>
+        <td>+</td>
+        <td></td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td>картофель фри</td>
+        <td></td>
+        <td>+</td>
+        <td></td>
+        <td>+</td>
+        <td>+</td>
+    </tr>
+        <tr style="border: 1px solid black;">
+        <td>сыр копченый</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>+</td>
+    </tr>
+</table>
+</html>
