@@ -1,1 +1,41 @@
-
+<html>
+    <style>
+        h1 {
+            background-color: green;
+            font-size: 40;
+            color: black;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin: 25px 50px 25px 0px;
+            padding: 10px 15px 10px 15px;
+        }
+        img {
+            margin: -2px;
+        }
+        p {
+            font-size: 20;
+        }
+        ul {
+            font-size: 20;
+            list-style:url("https://img.icons8.com/?size=12&id=J59Mg9rwboHk&format=png&color=000000") ;
+        }
+    </style>
+    <body>
+        <head>
+            <h1>Music shopping</h1>
+        </head>
+        <main>
+            <img src="https://i.pinimg.com/736x/72/73/2d/72732d2a5b02ea432a88ddb0902df1a4.jpg" width="400" height="300">
+            <img src="https://i.pinimg.com/736x/af/22/a4/af22a4e3a77ced80b48c49d6184af3df.jpg" width="700" height="300">
+            <p>
+                Музыкальное оборудование для вас:
+            </p>
+            <ul>
+                <p><img src="https://avatars.mds.yandex.net/get-ydo/3941597/2a000001780319b61c455718b1bfea5e90cb/diploma" width="30" height="20">музыкальные инструменты</p>
+                <p><img src="https://avatars.mds.yandex.net/get-ydo/3941597/2a000001780319b61c455718b1bfea5e90cb/diploma" width="30" height="20">аксессуары</p>
+                <p><img src="https://avatars.mds.yandex.net/get-ydo/3941597/2a000001780319b61c455718b1bfea5e90cb/diploma" width="30" height="20">звук, микрофоны</p>
+                <p><img src="https://avatars.mds.yandex.net/get-ydo/3941597/2a000001780319b61c455718b1bfea5e90cb/diploma" width="30" height="20">концертное оборудование</p>
+                <p><img src="https://avatars.mds.yandex.net/get-ydo/3941597/2a000001780319b61c455718b1bfea5e90cb/diploma" width="30" height="20">музыкальная литература</p>
+            </ul>
+        </main>
+    </body>
+</html>
