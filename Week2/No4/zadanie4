@@ -1,1 +1,101 @@
 
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .container {
+                width: 870px;
+                margin: 0 auto;
+            }
+            
+            .main-info {
+                float: left;
+                width: 400px;
+            }
+            
+            .advertisement {
+                float: right;
+                width: 350px;
+                margin-top: 90px;
+                padding: 30px;
+                border: 2px dotted navy;
+            }
+            
+            .reviews {
+                width: 870px;
+                float: left;
+                margin-left: 30px;
+                clear: both;
+                margin-top: 20px;
+            }
+            
+            .review {
+                border-left: 10px double navy;
+                width: 350px;
+                padding-left: 10px;
+                margin-bottom: 20px;
+            }
+            
+            .reviewer-name {
+                color: firebrick;
+                border-bottom: 1px dotted firebrick;
+                display: inline-block;
+                padding-bottom: 2px;
+                margin-bottom: 5px;
+            }
+            .main-info h1 {
+                color: purple
+                
+            }
+            .main-info h2 {
+                color: indigo;
+                font-size: 20px;
+            }
+            .main-info p {
+                font-size: 20px;
+            }
+            .advertisement h2 {
+                color: indigo;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <section class="main-info">
+                <h1>Зоопарк редких животных</h1>
+                <h2>Более 150 видов</h2>
+                <p>Вы увидите крупных диких представителей живой природы, а также редких птиц, змей и многое другое!</p>
+                <img src="https://i.pinimg.com/originals/05/ca/cb/05cacb75a2ae460900859f8cbc7ea0f1.jpg" width="400">
+            </section>
+            
+            <div class="advertisement">
+                <h2>Внимание! Специальное предложение от партнёра!</h2>
+                <p><a href="">Щенки хаски</a> от заводчика со всеми документами</p>
+                <img src="https://avatars.mds.yandex.net/i?id=971152cb319850e05ceac1b93158c0bc-4818427-images-thumbs&n=13" width="150">
+                <img src="https://avatars.mds.yandex.net/i?id=b47803eb6b2b60031c02eccde5cc015d_l-10695851-images-thumbs&n=13" width="150">
+            </div>
+            
+            <div class="reviews">
+                <div class="review">
+                    <div class="reviewer-name">Олег</div>
+                    <p>Были в серпентарии. Ребёнок в восторге!</p>
+                </div>
+                
+                <div class="review">
+                    <div class="reviewer-name">Наталья</div>
+                    <p>Спасибо за экскурсию! Очень интересно!</p>
+                </div>
+                
+                <div class="review">
+                    <div class="reviewer-name">Анна</div>
+                    <p>Так и не попали к птицам. жаль… Однако, остальное очень здорово!</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
