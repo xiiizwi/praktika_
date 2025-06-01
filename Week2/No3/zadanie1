@@ -1,1 +1,91 @@
+<style>
+body {
+    background: linear-gradient(to bottom, #5FBB9D, #E37F41, #5FBB9D);
+}
 
+footer{
+    background: linear-gradient(to bottom, #666666, #2BEAAC);
+}
+
+p {
+    font-size: 36;
+    color: white;
+}
+
+
+ .round-img {
+    border-radius: 165px;
+ }
+
+h1 {
+    text-align: center;
+    color: #A73900;
+    font-size: 80;
+}
+
+h2{
+    color: #A73900;
+    text-align: left;
+    font-size: 35;
+}
+
+h3{
+    color: #A73900;
+    text-align: center;
+    font-size: 50;
+}
+
+h4{
+    text-align: center;
+    font-size: 35;
+    color: #A73900;
+
+}
+
+table{
+    text-align: center;
+    color: black;
+}
+
+ul{
+    font-size:40 ;
+}
+
+</style>
+
+<html>
+<h1>Зоопарк столичный</h1>
+
+<img style="margin: auto; display:block; width: 550px; height: 330px;" src="https://avatars.mds.yandex.net/i?id=a7069d7812237a1cac39e3584395c7d3d7e2d2a0-4569108-images-thumbs&n=13" class="round-img">
+
+<h4>В нашем столичном зоопарке вы можете посмотреть на диких животных с разных 
+    уголков нашей планеты. 
+</h4>
+
+<h2>У нас есть:</h2>
+
+<ul>
+<li>Носороги</li>
+<li>Лисы</li>
+<li>Зебры</li>
+<li>Львы</li>
+<li>Жиравы</li>
+<li>Волки</li>
+</ul>
+
+<h3>Фотографии животных</h3>
+
+
+<img src="https://t4.ftcdn.net/jpg/00/46/85/31/360_F_46853107_b43I7B0ATjpKoulT6hJb215jYMUJZua0.jpg" width="582">
+<img src="https://img.goodfon.com/original/1400x1050/3/ba/lisa-lisenok-poza-vzgliad-trava.jpg" width="465">
+<img src="https://i.pinimg.com/originals/54/21/6f/54216fdd4065268a8d218aa8c11bf64d.jpg" width="350">
+<img src ="https://i.pinimg.com/originals/27/30/ab/2730ab714c24680dd0f951f4912b5f25.jpg" width="620">
+<img src="https://i.pinimg.com/originals/7d/37/11/7d37110348412358f7d31b0b0961f44f.jpg" width="700">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Lobo_en_el_Zoo_de_Madrid_01_cropped.jpg/1200px-Lobo_en_el_Zoo_de_Madrid_01_cropped.jpg" width="450">
+
+<footer>
+    <p>Эл.почта: zverushkizooparka0@gmail.com</p>
+    <p>Телефон: +888 (333) 222-52-42</p>
+</footer>
+
+</html>
