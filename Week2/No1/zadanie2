@@ -1,1 +1,42 @@
-
+<html>
+    <style>
+        h1 {
+            background-color: indigo;
+            font-size: 40;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin: 25px 50px 25px 0px;
+            padding: 10px 15px 10px 15px;
+        }
+        img {
+            margin: -2px;
+        }
+        p {
+            font-size: 20;
+        }
+        ul {
+            font-size: 20;
+            list-style:url("https://img.icons8.com/?size=12&id=J59Mg9rwboHk&format=png&color=000000") ;
+        }
+    </style>
+    <body>
+        <head>
+            <h1>Sea Aquarium</h1>
+        </head>
+        <main>
+            <img src="https://aquastatus.ru/pic/54027.jpg" width="400" height="300">
+            <img src="https://i.ytimg.com/vi/4nnLnkZIdi8/maxresdefault.jpg" width="400" height="300">
+            <img src="https://i.ytimg.com/vi/NuAz-3CXRTE/maxresdefault.jpg" width="400" height="300">
+            <p>
+                В магазинах нашей сети широкий выбор товаров для вашего морского аквариума:
+            </p>
+            <ul>
+                <li>аквариум объёмом 100-1000 л</li>
+                <li>оборудование</li>
+                <li>грунт и украшения</li>
+                <li>кораллы, живые камни</li>
+                <li>морские животные</li>
+            </ul>
+        </main>
+    </body>
+</html>
