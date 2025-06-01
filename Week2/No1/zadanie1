@@ -1,1 +1,65 @@
+<style>
+    p {
+        padding-right: 10px;
+        font-size: 30;
+    }
 
+    header p {
+      text-decoration: none;
+      border: 1px solid black;
+      border-radius: 15px;
+      color: black;
+    }
+
+    h1 {
+      font-size: 55;
+      text-align: center;
+    }
+    
+    table{
+      
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 30;
+    }
+
+    td {
+    border: 12px solid black;  
+    }
+
+  </style>  
+
+
+<html>
+<img src="https://avatars.mds.yandex.net/i?id=659d4b72bf1a2b51e5532a9b81954abb_l-5858325-images-thumbs&n=13" width="2650" height="200"> 
+<p> </p>
+<p style="text-align: center;"> 
+<u style="padding: 0px 70px 0px 0px;">Расписание</u> <u style="padding: 0px 70px 0px 0px;">О занятиях</u>  <u style="padding: 0px 30px 0px 0px;">Адреса клубов</u>
+</p1>
+<h1>Болдеринг</h1>
+
+<img style="border-left: dotted 12px; margin: 0px 270px 0px 100px;" src="https://avatars.mds.yandex.net/i?id=96842ad0c891be0d13bd39252f44723d_l-5877412-images-thumbs&n=13" width="300" height="190">
+<img style="border-left: dotted 12px; padding: 0px 270px 0px 0px;" src="https://avatars.mds.yandex.net/get-altay/374295/2a0000015b174abf99b46d51fa514639387a/XXL_height" width="300" height="190">
+<img style="border-left: dotted 12px; margin: 0px 270px 0px 0px;" src="https://avatars.mds.yandex.net/get-altay/2805836/2a00000173ed8ecc435ff4a756bb7b5bd972/XXXL" width="300" height="190">
+<header>
+  <p style="margin: 20 0 0 20;">Никогда не бьли на скалодроме? - Скорее сделайте первую попытку залесть наверх! 
+    На наших площадках залы разной трудности. Тренеровки безопасны, для новичков
+    предусмотрена автостраховка, в залах работают инструкторы. Для детей выделенные зоны\
+    с увлекательными аттракционами. Есть абонимент, скидки и система индивидуальных
+    занятий. Перед посещением, пожалуйста, ознакомьтесь с <a href="https://elcapitan.club/kontakty/tehnika-bezopasnosti/">правилами</a> 
+    техники безопасности.</p>
+</header>
+<p> </p>
+
+<table style="margin: 20 10 0 0;">
+<tr>
+  <td style="width: 1250;">E-mail:</td>
+</tr>
+
+<tr>
+  <td>Телефон:</td>
+</tr>
+
+</table>
+
+</html>
