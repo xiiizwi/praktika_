@@ -1,1 +1,84 @@
+<html>
+    <head>
+        <style>
+            .card {
+                position: relative;
+                float: left;
+                width: 150px;
+                text-align: center;
+                padding: 10px;
+                border: 5px double orange;
+                margin: 40px 0px 40px 80px;
+                background-color: bisque;
+            }
+            .card p { 
+                margin-top: 0;
+                margin-bottom: 0;
+                border-bottom: 1px dotted black;
+                display: inline-block;
+                }        
+            .catalog-container{
+                width: 870px;
+                height: 250px;
+                background-color: lightblue;
+            }
+            .principles{
+                border-top: 5px solid navy;
+                border-bottom: 5px solid navy;
+                margin: 30px 60px 30px 30px;
+                height: 150px;
+                padding: 30px;
+                text-align: center;
+            }
+            .principle{
+                float: left;
+                width: 120px;
+                margin-left: 100px;
+            }
+            .product-img{
+                width: 120px;
+                height: 90px;
 
+            }
+            .principle-img{
+                width: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="font-size: 25px">Товары для питомца</h1>
+        <section class="catalog-container">
+            <div class="card">
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2023-11/27/15/asset/0452b9caae33/sub-buzz-592-1701100424-1.jpg" class="product-img">
+                <p>Корма</p>
+            </div>
+
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/het-speelgoed-van-de-hond-6150703.jpg" class="product-img">
+                <p>Игрушки</p>
+            </div>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/originals/3d/52/27/3d52275337acc9fa1ef36368f03476ce.jpg" class="product-img">
+                <p>Домики</p>
+            </div>
+        </section>
+
+        <section class="principles">
+            <div class="principle">
+                <img src="https://e7.pngegg.com/pngimages/424/585/png-clipart-laboratory-flasks-beaker-test-tubes-dna-testing-angle-laboratory.png" width="40" height="40" class="principles-img">
+                <p>Товары проходят ветэкспертизу</p>
+            </div>
+
+            <div class="principle">
+                <img src="https://e7.pngegg.com/pngimages/104/36/png-clipart-car-pickup-truck-peterbilt-379-car-truck-logo.png" width="40" height="40" class="principles-img">
+                <p>Доставка в любые точки города</p>
+            </div>
+
+            <div class="principle">
+                <img src="https://i.pinimg.com/originals/79/b4/ca/79b4ca5f18cb2b4e8376ae16850f5659.jpg" width="40" height="40" class="principles-img">
+                <p>бесплатная консультация</p>
+            </div>
+        </section>
+    </body>
+</html>
