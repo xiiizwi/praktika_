@@ -81,7 +81,7 @@
             <h2>1 неделя</h2>
             <h3>Задание 1</h3>
             <div class="subtasks">
-                <div><a href="https://github.com/xiiizwi/praktika_/tree/main/No1">Задача 1</a></div>
+                <div><a href="https://github.com/xiiizwi/praktika_/tree/main/No1/zadanie1.html">Задача 1</a></div>
             </div>
             <h3>Задание 2</h3>
             <div class="subtasks">
